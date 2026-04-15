@@ -9,7 +9,7 @@ from itertools import combinations
 # Please set this variable to the directory containing your model checkpoints.
 # The script will look for model folders inside this directory.
 # Example: "/path/to/my/checkpoints"
-CHECKPOINT_BASE_DIR = "./checkpoints"
+CHECKPOINT_BASE_DIR = "/share/zhuzy/models/awm"
 
 # --- EXPERIMENT CONFIGURATIONS ---
 # The following dictionaries define the model paths and comparison pairs for

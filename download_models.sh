@@ -18,7 +18,7 @@
 # --- Configuration ---
 # The default directory to save model checkpoints.
 # This should match CHECKPOINT_BASE_DIR in configs.py
-CHECKPOINT_BASE_DIR="../checkpoints"
+CHECKPOINT_BASE_DIR="/share/zhuzy/models/awm"
 
 
 # --- Helper Functions ---
