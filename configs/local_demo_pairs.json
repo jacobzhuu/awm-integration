@@ -1,0 +1,29 @@
+{
+  "description": "Local demo pairs validated for the first AWM integration pass.",
+  "pairs": [
+    {
+      "name": "olmo_self_control",
+      "label": "OLMo-1B-hf vs OLMo-1B-hf",
+      "model_a": "/share/OLMo-1B-hf",
+      "model_b": "/share/OLMo-1B-hf"
+    },
+    {
+      "name": "olmo_vs_phi_negative",
+      "label": "OLMo-1B-hf vs phi-1.5",
+      "model_a": "/share/OLMo-1B-hf",
+      "model_b": "/share/phi-1.5"
+    },
+    {
+      "name": "qwen_vs_smollm_negative",
+      "label": "Qwen2.5-1.5B vs SmolLM2-1.7B",
+      "model_a": "/share/Qwen2.5-1.5B",
+      "model_b": "/share/SmolLM2-1.7B"
+    },
+    {
+      "name": "gemma_vs_pythia_negative",
+      "label": "gemma-2-2b vs pythia-1.4b",
+      "model_a": "/share/gemma-2-2b",
+      "model_b": "/share/pythia-1.4b"
+    }
+  ]
+}

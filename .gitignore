@@ -166,3 +166,11 @@ cython_debug/
 
 figures/
 old/requirements.no_torch.txt
+
+requirements.no_torch.txt
+AGENTS.md
+ToDoList.md
+artifacts/awm/logs/*
+artifacts/awm/results/*
+!artifacts/awm/logs/.gitkeep
+!artifacts/awm/results/.gitkeep
